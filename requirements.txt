@@ -1,0 +1,5 @@
+dbt-core==1.2.0
+dbt-postgres==0.21.1
+dbt-redshift==0.21.1
+dbt-snowflake==0.21.1
+dbt-bigquery==0.21.1
