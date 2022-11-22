@@ -1,6 +1,8 @@
 """
+### DBT Copy Store Failures Redshift
+
 DAG to run dbt project and tests, then load the store_failures table into
-a permament table so subsequent runs do not overwrite.
+a permament Redshift table so subsequent runs do not overwrite.
 
 For the DAG to work, the following must exist:
     - An Airflow Connection to Redshift (Postgres connection)
